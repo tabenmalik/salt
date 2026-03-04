@@ -3,4 +3,5 @@
     - user: root
     - group: root
     - mode: '0644'
-    - source: salt://minion.conf
+    - contents: |
+        file_client: local
