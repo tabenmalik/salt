@@ -27,7 +27,7 @@ Pin-Priority: 1001' | sudo tee /etc/apt/preferences.d/salt-pin-1001
 install the salt-minion
 ```
 sudo apt-get update
-sudo apt-get install salt-minion
+sudo apt-get install salt-common
 ```
 
 for the first state-apply, must use `--local`. afterwards, the minion configuration allows for dropping the `--local`
