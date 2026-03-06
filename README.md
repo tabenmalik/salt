@@ -35,3 +35,7 @@ for the first state-apply, must use `--local`. afterwards, the minion configurat
 ```
 salt-call --local --file-root=$(pwd) state.apply
 ```
+
+## assumptions
+
+the user `taben` and a home directory for the user is assumed
