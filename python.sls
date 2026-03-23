@@ -4,7 +4,7 @@ python:
       - python3
       - python3-virtualenv
 
-{% set tools = ["astpretty", "build", "flake8", "pre-commit", "tox", "twine", "uninstall-dot"]%}
+{% set tools = ["astpretty", "build", "flake8", "gprof2dot", "pre-commit", "tox", "twine", "uninstall-dot"]%}
 python-tools:
   virtualenv.managed:
     - name: /home/taben/.local/state/venv-python-tools
