@@ -1,5 +1,6 @@
 base:
   '*':
+    - base
     - firefox
     - podman
     - python
