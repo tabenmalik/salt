@@ -1,3 +1,5 @@
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/tabenmalik/salt/main.svg)](https://results.pre-commit.ci/latest/github/tabenmalik/salt/main)
+
 configuration management for my personal machines.
 
 using a standalone minion setup.
