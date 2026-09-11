@@ -9,7 +9,7 @@ micro-config-dir:
 micro-settings:
   file.managed:
     - name: /home/taben/.config/micro/settings.json
-    - source: /home/taben/Documents/projects/dotfiles/micro-settings.json
+    - source: /home/taben/Documents/projects/dotfiles/micro/settings.json
     - mode: '0444'
     - require:
       - git: dotfiles
