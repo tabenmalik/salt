@@ -4,7 +4,7 @@ configuration management for my personal machines.
 
 using a standalone minion setup.
 
-update machine with `salt-call --file-root=$(pwd) state.apply`
+update machine with `sudo salt-call state.apply`
 
 ## setup
 
@@ -32,7 +32,7 @@ sudo apt-get update
 sudo apt-get install salt-common
 ```
 
-for the first state-apply, must use `--local`. afterwards, the minion configuration allows for dropping the `--local`
+for the first state-apply, must use `--local` and `--file-root`. afterwards, the minion configuration allows for dropping both flags.
 
 ```
 salt-call --local --file-root=$(pwd) state.apply

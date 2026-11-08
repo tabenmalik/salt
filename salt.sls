@@ -29,3 +29,6 @@ salt-config:
     - makedirs: True
     - contents: |
         file_client: local
+        file_roots:
+          base:
+            - /home/taben/Documents/projects/salt
