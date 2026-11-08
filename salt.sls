@@ -12,7 +12,7 @@ salt:
         Pin-Priority: 1001
   pkgrepo.managed:
     - humanname: Salt Project
-    - name: deb [signed-by=/etc/apt/keyrings/salt-archive-keyring.gpg arch=amd64] https://packages.broadcom.com/artifactory/saltproject-deb/ stable main
+    - name: deb [arch=amd64 signed-by=/etc/apt/keyrings/salt-archive-keyring.gpg] https://packages.broadcom.com/artifactory/saltproject-deb/ stable main
     - file: /etc/apt/sources.list.d/salt.list
     - key_url: https://packages.broadcom.com/artifactory/api/security/keypair/SaltProjectKey/public
     - aptkey: False
